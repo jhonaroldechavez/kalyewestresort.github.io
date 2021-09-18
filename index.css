@@ -1,0 +1,40 @@
+article {
+    width: 500px;
+    padding: 50px;
+    color: 	#ddd8ef;
+    padding-top: 2%;
+    float: right;
+    font-size: large;
+}
+.article img{
+    width: 400px;
+    height: 300px;
+    padding: 85px;
+    float: left;
+    padding-top: 4%;
+    opacity: 1;
+    transition: all 1s ease;
+}
+.article:hover img{
+    padding: 85px;
+    float: left;
+    padding-top: 4%;
+    opacity: 0.1;
+    transition: all 1s ease;
+}
+.button {
+    background-color: lightskyblue;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+}
+.button:hover {
+    background-color: white;
+    color: lightskyblue;
+}
